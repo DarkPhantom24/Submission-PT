@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="halaman1.css">
     <title>Submission PT</title>
+    <link rel="stylesheet" href="halaman1.css" />
   </head>
   <body>
     <header>
@@ -23,72 +23,92 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <section>
-        <img src="assets/serayapus.png" alt="" />
-      </section>
-      <section>
-        <h1>Selamat Datang di ....</h1>
-        <p>Solusi Pintar Untuk <br />Beasiswa/UKT Mahasiswa</p>
-        <div class="tombol">
-          <button>Daftar .... ID</button>
-          <a href=""><button>Lihat informasi</button></a>
+      <div class="container">
+        <div>
+          <img src="assets/serayapus.png" alt="Logo SerayaPus">
+        </div>
+        <div class="right">
+          <h1>Selamat datang di <br><span>SerayaPus</span></h1>
+          <p>Solusi Pintar Untuk<br>Beasiswa/UKT Mahasiswa</p>
+          <div class="button">
+            <a href="#" class="btn">Daftar SerayaPus ID</a>
+            <a href="#" class="btn">Lihat Informasi</a>
+          </div>
+        </div>
+      </div>
+   
+      <section id="tentang-kami">
+        <div id="container">
+          <div class="logo-column">
+            <img src="assets/serayapus.png" alt="SerayaPus" class="logo-lingkaran">
+          </div>
+          <div class="about-text">
+            <h2>Tentang kami</h2>
+            <p>
+              Di Serayapus, misi kami adalah untuk memberdayakan mahasiswa dengan menyediakan solusi inovatif
+              untuk membantu mereka mengelola dan membayar biaya kuliah (UKT). Kami memahami tantangan finansial
+              yang dihadapi oleh mahasiswa dan hadir untuk memberikan dukungan melalui berbagai fitur yang dirancang
+              untuk meringankan beban biaya pendidikan.
+            </p>
+          </div>
+        </div>
+    
+        <div class="fitur">
+          <h2>Fitur kami</h2>
+          <div class="fitur-grid">
+            <div class="fitur-item">
+              <h3>Informasi beasiswa</h3>
+              <p>Kami menyediakan informasi terbaru tentang beasiswa dari berbagai sumber, memudahkan mahasiswa untuk menemukan dan mengajukan bantuan keuangan.</p>
+            </div>
+            <div class="fitur-item">
+              <h3>Crowdfunding</h3>
+              <p>Platform kami memungkinkan mahasiswa membuat kampanye penggalangan dana untuk menutup UKT mereka dari teman, keluarga, dan komunitas.</p>
+            </div>
+            <div class="fitur-item">
+              <h3>Pinjaman UKT</h3>
+              <p>Kami menawarkan opsi pinjaman yang mudah diakses dan terjangkau untuk membantu mahasiswa membayar biaya kuliah tanpa stres.</p>
+            </div>
+            <div class="fitur-item">
+              <h3>Konsultasi Keuangan</h3>
+              <p>Dapatkan saran keuangan pribadi dari tim ahli kami untuk mengelola keuangan dan merencanakan biaya pendidikan secara efektif.</p>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="Tentang">
-        <img src="assets/serayapus.png" alt="SerayaPus Logo" />
-        <h1>Tentang Kami</h1>
-        <p>Di SerayaPus, misi kami adalah untuk memberdayakan mahasiswa dengan menyediakan solusi inovatif untuk membantu mereka mengelola dan membayar biaya kuliah (UKT). Kami memahami tantangan finansial yang di hadapi oleh mahasiswa dan hadir untuk memberikan dukungan melalui berbagai fitur yang dirancang untuk meringankan beban biaya pendidikan.</p>
-      </section>
-      <section class="Fitur">
-        <h2>Fitur Kami</h2>
-        <ul>
-          <li>
-            <h3>Informasi Beasiswa</h3>
-            <p>Kami menyediakan informasi terbaru tentang beasiswa yang tersedia dari berbagai sumber, memudahkan mahasiswa untuk menemukan dan mengajukan bantuan keuangan.</p>
-          </li>
-          <li>
-            <h3>Crowdfunding</h3>
-            <p>platform kami memungkinkan mahasiswa untuk membuat kampanye penggalangan dana untuk mengumpulkan dukungan dari teman, keluarga, dan komunitas untuk menutupi UKT mereka.</p>
-          </li>
-          <li>
-            <h3>Pinjaman UKT</h3>
-            <p>Kami menawarkan opsi pinjaman yang mudah diakses dan terjangkau yang dirancang khusus untuk membantu mahasiswa membayar biaya kuliah tanpa stres.</p>
-          </li>
-          <li>
-            <h3>Konsultasi keuangan</h3>
-            <p>Dapatkan saran keuangan pribadi dari tim ahli kami untuk mengelola keuangan dengan lebih baik dan merencanakan biaya pendidikan secara efektif.</p>
-          </li>
-          
-            <div class="hubungi">
-              <h3></i> Detail Kontak</h3>
-              <p><strong>Alamat:</strong><br>
-                  Jl. Soekarno Hatta No. 12, Palu, Indonesia</p>
-              <p><strong>Telepon:</strong><br>
-                 +62 859-1124-3278</p>
-              <p><strong>Email:</strong><br>
-                 info@serayapus.com</p>
-            </div>
-          
-            <div class="berita">
-              <h3>Berita Terkini</h3>
-              <p>Beasiswa 2025 Posco Asia Fellowship</p>
-            </div>
-          
-            <div class="tautan">
-              <h3>Tautan Cepat</h3>
-              <ul>
-                <li><strong>Beranda</strong></li>
-                <li>Informasi</li>
-                <li>Layanan</li>
-              </ul>
-            </div>
-      </section>
-    </main>
-    <footer>
-      <div class="copyright">
-        <p>&copy copyright <b>***.</b> All Right Reserved</p>
+  
+    <section id="kontak-kami">
+      <div class="hubungi">
+        <h3></i> Detail Kontak</h3>
+        <p><strong>Alamat:</strong><br>
+            Jl. Soekarno Hatta No. 12, Palu, Indonesia</p>
+        <p><strong>Telepon:</strong><br>
+           +62 859-1124-3278</p>
+        <p><strong>Email:</strong><br>
+           info@serayapus.com</p>
       </div>
-    </footer>
+    
+      <div class="berita">
+        <h3>Berita Terkini</h3>
+        <p>Beasiswa 2025 Posco Asia Fellowship</p>
+      </div>
+    
+      <div class="tautan">
+        <h3>Tautan Cepat</h3>
+        <ul>
+          <li><a href="halaman1.html"><strong>Beranda</strong></a></li>
+          <li><a href="">Informasi</a></li>
+          <li><a href="">Layanan</a></li>
+        </ul>
+      </div>
+    </section>
+    </main>
+    
+  <footer>
+    <div class="copyright">
+      <p>&copy copyright <b>*.</b> All Right Reserved</p>
+    </div>
+  </footer>
   </body>
-  </html>
+</html>

@@ -8,8 +8,8 @@ body {
   margin-top: 100px;
   font-family: "Segoe UI", sans-serif;
   color: black;
-  height: 1700px;
-  background: linear-gradient(to bottom, #ffffff 30%, #003366 50%);
+  height: 2150px;
+  background: linear-gradient(to bottom, #ffffff 25%, #003366 35%);
   justify-content: center;
   align-items: center;
 }
@@ -126,6 +126,7 @@ nav ul li button {
 .image-section img {
   width: 100%;
   height: auto;
+  margin-top: -75px;
 }
 
 #beasiswa {
@@ -217,4 +218,67 @@ nav ul li button {
   background-color: #aad9e6;
   border-radius: 10px;
   margin: 50px 30px 0;
+}
+
+#kontak-kami {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 50px;
+}
+
+.hubungi,
+.berita,
+.tautan {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.hubungi h3,
+.berita h3,
+.tautan h3 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.hubungi p,
+.berita p,
+.tautan li {
+  font-size: 15px;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.tautan ul {
+  list-style: none;
+  color: white;
+}
+
+.tautan li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+footer .copyright {
+  color: black;
+  font-weight: 20px;
+  font-size: 14px;
+  margin: 0;
+  align-items: center;
+}
+footer .copyright b {
+  color: white;
 }

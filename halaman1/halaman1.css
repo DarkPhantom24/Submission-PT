@@ -3,6 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  margin-top: 100px;
+  font-family: "Segoe UI", sans-serif;
+  color: black;
+  height: 1600px;
+  background: linear-gradient(to bottom, #ffffff 30%, #003366 50%);
+  justify-content: center;
+  align-items: center;
+}
 header {
   position: fixed;
   width: 100%;
@@ -55,4 +64,200 @@ nav ul li button {
   font-weight: 600;
   color: #000;
   border-radius: 4px;
+}
+
+/* ini selamat datang */
+.container {
+  display: flex;
+  align-items: right;
+  gap: 60px;
+  padding: 130px;
+  padding-top: 5px;
+}
+.container img {
+  width: 350px;
+  height: auto;
+}
+
+.right h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.right p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #cce7ed;
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  background-color: #aad9e6;
+}
+
+/* /ini tentang kami/ */
+#tentang-kami {
+  padding: 40px 80px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.logo-column {
+  flex: 1;
+  text-align: center;
+}
+
+.logo-lingkaran {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.about-text {
+  flex: 8;
+  color: white;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.8;
+  font-size: 18px;
+  color: white;
+}
+
+.fitur h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.fitur-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.fitur-item {
+  position: relative;
+  padding: 0 20px;
+}
+
+.fitur-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -15px;
+  width: 3px;
+  background-color: whitesmoke;
+}
+
+.fitur-item:last-child::before {
+  display: none;
+}
+
+.fitur-item h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.fitur-item p {
+  font-size: 15px;
+  color: #d0d0d0;
+  line-height: 1.6;
+}
+
+/* /ini kontak kami/ */
+#kontak-kami {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 50px;
+}
+
+.hubungi,
+.berita,
+.tautan {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.hubungi h3,
+.berita h3,
+.tautan h3 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.hubungi p,
+.berita p,
+.tautan li {
+  font-size: 15px;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.tautan ul {
+  list-style: none;
+  color: white;
+}
+
+.tautan li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+footer .copyright {
+  color: black;
+  font-weight: 20px;
+  font-size: 14px;
+  margin: 0;
+  align-items: center;
+}
+footer .copyright b {
+  color: white;
 }
